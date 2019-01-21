@@ -95,7 +95,7 @@ impl<'str> Iterator for Tokenizer<'str> {
  * Unit Tests for the `next` method.
  */
 #[cfg(test)]
-mod iterator_tests {
+mod iterator {
     use super::*;
 
     #[test]
@@ -161,7 +161,7 @@ impl<'str> Tokenizer<'str> {
  * Unit Tests for helper methods.
  */
 #[cfg(test)]
-mod helper_method_tests {
+mod helper_method {
     // Import identifiers from containing module
     use super::*;
 
