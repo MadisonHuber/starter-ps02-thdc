@@ -1,0 +1,8 @@
+[package]
+name = "thdc"
+version = "1.0.0"
+authors = ["Your Name <Your Email>"]
+edition = "2018"
+
+[dependencies]
+structopt = { version = "0.2", default-features = false }
