@@ -112,6 +112,7 @@ fn eval(input: &str, options: &Options) {
         while let Some(token) = tokens.next() {
             println!("{:?}", token);
         }
+        print!("\n");
     } else {
         eprintln!("Only debug mode (-d) is implemented. Press q to quit.");
     }
