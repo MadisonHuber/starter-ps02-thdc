@@ -35,11 +35,11 @@ impl Machine {
      * the only public method of a Machine.
      */
     pub fn eval(&mut self, input: &str) -> Vec<String> {
-        let mut messages = Vec::new();
+        let mut output = Vec::new();
 
-        messages.push(format!("Implement me! The input was: {}", input));
+        output.push(format!("Implement me! The input was: {}", input));
 
-        messages
+        output
     }
 }
 
