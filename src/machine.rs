@@ -31,8 +31,11 @@ impl Machine {
     }
 
     /**
-     * Given an input string, eval carries out its instructions. This is
-     * the only public method of a Machine.
+     * Given an input string, eval interprets its instructions. This is
+     * the only public method of a Machine value. It is responsible for
+     * producing a vector of strings of output that it is more easily
+     * tested than printing output directly. The responsibility of printing
+     * output will be the code that calls the eval method.
      */
     pub fn eval(&mut self, input: &str) -> Vec<String> {
         let mut output = Vec::new();
